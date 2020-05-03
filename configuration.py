@@ -1,8 +1,10 @@
 import os
 """
-Define constants
+Define directory constants for projects 
 """
 
-# nail the root directory
+# root directory
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
 
