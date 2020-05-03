@@ -1,1 +1,3 @@
 # TODO: create save directories to access raw data for all files in all phases
+# TODO: move all working notebooks inside each directory, results must be saved within 'results' directory
+# for each phase
