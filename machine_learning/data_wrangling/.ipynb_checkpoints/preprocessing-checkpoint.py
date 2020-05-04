@@ -55,11 +55,11 @@ def timeseries_generator(data_in, data_out, min_index=0, max_index=None, lookbac
 
 
 if __name__ == '__main__':
-    from machine_learning.configurationGR import INPUT_LOGS_OUTPUT_LOGS_DICT
+    from input.LOG_UNITS import LOG_NAMES_UNITS_DICT
     import pandas as pd
 
-    input_name = INPUT_LOGS_OUTPUT_LOGS_DICT['INPUT']
-    output_name = INPUT_LOGS_OUTPUT_LOGS_DICT['OUTPUT']
+    input_name = LOG_NAMES_UNITS_DICT['INPUT']
+    output_name = LOG_NAMES_UNITS_DICT['OUTPUT']
 
     file_loc = '../../input/cleaned_up/25509696_cleaned_up.csv'
     df = pd.read_csv(file_loc)
